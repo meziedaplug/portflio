@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: .gold;
+}
+
+header {
+    background: #42475c;
+    padding: 15px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 25%;
+    height: 25%;
+}
+
+.hero-text {
+
+    color: aquamarine;
+}
+
+section {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    text-align: center;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin: 5px;
+}
+.intro{
+    background-color: ghostwhite;
+    padding:  15px 30px;
+    margin: 25px;
+    border-radius: 25px;
+    color: darkcyan;
+}
+.intro a{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+footer{
+    text-align: center;
+    color: powderblue;
+    background-color: greenyellow;
+    padding:  15px 30px;
+}
+section.ot {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.qq{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.xx{
+    color: #f7eac2;
+    text-decoration: none;
+}
+.mm{
+    background-color: burlywood;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.contact-info{
+    background-color: brown;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lemonchiffon;
+}
